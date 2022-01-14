@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+    ## Colors
+
+    ### Primary
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    ### Neutral
+
+    --very-dark-blue: hsl(217, 54%, 11%);
+    --very-dark-blue: hsl(216, 50%, 16%);
+    --very-dark-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    ## Fonts
+
+    --fonte-padrao: "Outfit", sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main img {
+    width: 89%;
+    margin: 1.5em 1.5em 0em 1.5em;
+    border-radius: .5em;
+
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    max-width: 416px;
+    
+}
+
+section h1 {
+    margin: 1em;
+}
+
+section span {
+    margin: 1em;
+}
+
+main .um{
+    text-align: left;
+}
+
+main .dois {
+    text-align: right;
+}
+
+main .rodape {
+    
+}
+
+main .rodape img {
+    width: 12%;
+    }
+
+main .rodape header {
+    text-align: center;
+}
