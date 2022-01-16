@@ -36,35 +36,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
 }
 
 div {
+    margin: 0rem;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 1rem;
-   
+    border-radius: 1em;
 }
 
 .logo {
-    margin: 2.8rem 2.8rem 0rem 2.8rem;
-    border-radius: 1rem;
+    margin: 2em;
+    border-radius: 1em;
 }
 
-.titulo {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 600;
-    padding: 2rem 0rem 0rem 2.8rem;   
-}
-
-.infos {
-    font-size:25px;
-    padding: 2rem 0rem 0rem 2.8rem;
-    font-weight: 600;
-    color: hsl(215, 32%, 27%);
-}
-
-.parametros {
-    padding: 2em ;
-    color: hsl(178, 100%, 50%);
+h1{
+    font-style: normal;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
