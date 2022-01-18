@@ -30,15 +30,15 @@
 body {
     font-family: "Outfit" sans-serif;
     background-color: hsl(217, 54%, 11%);
+    background-position: center center;
     color: white;
-    width: 100%;
-    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 div {
+    float: inline-start;
+    height: 30;
     margin: 0rem;
     background-color: hsl(216, 50%, 16%);
     border-radius: 1em;
@@ -53,4 +53,9 @@ h1{
     font-style: normal;
     margin-left: 1em;
     margin-bottom: 1em;
+}
+
+.escrita {
+    text-align: justify;
+    font-size: 
 }
